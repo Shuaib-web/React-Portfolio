@@ -1,0 +1,224 @@
+/* This is the style for the body */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #1c1d24;
+}
+/* This is the style for the section */
+
+section {
+  background-color: #1c1d24;
+  height: 500px;
+}
+
+.hero {
+  height: 100vh;
+  color: white;
+  font-size: 30px;
+  background-color: #1c1d24;
+}
+
+.Portfolio {
+  margin-left: 10px;
+  margin: 20px;
+}
+
+/* This is the design and styling for the navbar */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 20px;
+}
+/* This is the design and styling for the un-ordered list */
+
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 450px;
+  justify-content: space-around;
+  font-size: 20px;
+  margin: 25px;
+}
+
+li {
+  text-decoration: none;
+}
+/* This is the design and styling for the headers and paragraphs  */
+
+h1 {
+  font-size: 40px;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+h3 {
+  text-align: center;
+  margin-right: 77px;
+}
+
+p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.subtext {
+  font-size: 15px;
+  font-weight: 250;
+  margin-right: 77px;
+}
+
+/* This is the design and styling for the hero area and text div */
+
+.hero-text {
+  margin-left: 80px;
+  margin-bottom: 150px;
+}
+
+.hero-area {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* This is the design and styling for the wrapper */
+
+.wrapper {
+  height: 400px;
+  width: 400px;
+  position: relative;
+  border: 5px solid white;
+  border-radius: 50%;
+  left: 730px;
+  top: 170px;
+  /* background: url(./images/shuib.jpg); */
+  background-size: 100% auto;
+  background-position: center;
+  overflow: hidden;
+}
+
+/* This is the design and styling for the button */
+.button {
+  width: 170px;
+  height: 50px;
+  background-color: rgb(212, 105, 28);
+  border-radius: 40px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 30px;
+  padding-top: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #54535c;
+}
+
+.button:active {
+  background-color: #3d3c42;
+  color: #808080;
+}
+
+/* This is the design and styling for the social media icons */
+
+.socials {
+  padding-bottom: 200px;
+  margin-right: 10px;
+}
+
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+.sub-section-extra {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+
+.screenshot {
+  border-radius: 250px;
+}
+
+.screenshot-container {
+  display: flex;
+  align-items: center;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
+
+/* This is the design and styling for the project cards */
+
+.project-card {
+  width: 300px;
+  height: 500px;
+  margin: 10px;
+  box-shadow: 5px 5px 20px rgb(225, 224, 224);
+  padding-left: 80px;
+  padding-top: 40px;
+  overflow: hidden;
+  flex-grow: 30px;
+}
+
+/* This is the design and styling for the project image */
+
+.project-card img {
+  position: relative;
+  right: 40px;
+  width: 100%;
+}
+
+hr {
+  position: relative;
+  right: 40px;
+  width: 100%;
+}
+
+.sub-section-extra h2 {
+  position: relative;
+  bottom: 50px;
+}
+
+.sub-section-extra {
+  position: relative;
+  bottom: 300px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/* This is the design and styling for the anchor tags and footer */
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.contact-me {
+  color: #ffffff;
+}
+
+footer {
+  padding: 20px;
+  background-color: black;
+  text-align: center;
+}

@@ -1,6 +1,10 @@
+import React from "react";
+import profile from "../images/shuib.jpg";
+
+
 export default function Hero() {
   return (
-    <section class="hero">
+    <section className="hero">
       <nav>
         <div>Portfolio</div>
         <ul>
@@ -15,15 +19,15 @@ export default function Hero() {
           </li>
         </ul>
       </nav>
-      <div class="hero-area">
-        <div class="hero-text">
-          <div class="wrapper" alt="image of myself"></div>
+      <div className="hero-area">
+        <div className="hero-text">
+          <div className="wrapper" alt="image of myself"></div>
           <h1>Shuib Mohamed</h1>
           <p>Full stack developer</p>
-          <div class="button">
+          <div className="button">
             <a href="#about-me">About me</a>
           </div>
-          <p class="subtext">Welcome</p>
+          <p className="subtext">Welcome</p>
           <p>
             I am a highly motivated hardworking individual, who has recently
             decided embark on a new career path. My eventual career goal is to
@@ -31,7 +35,7 @@ export default function Hero() {
             aspiration of moving into a more senior role.
           </p>
         </div>
-        <div class="socials">
+        <div className="socials">
           <div>
             <a href="https://twitter.com/" class="social">
               <svg

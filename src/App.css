@@ -98,7 +98,7 @@ p {
   border-radius: 50%;
   left: 730px;
   top: 170px;
-  /* background: url(./images/shuib.jpg); */
+  background: url(./images/shuib.jpg);
   background-size: 100% auto;
   background-position: center;
   overflow: hidden;

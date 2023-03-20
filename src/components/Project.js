@@ -1,36 +1,90 @@
 import React from "react";
 
-import Project1 from "../images/project-1.jpeg";
-import Project2 from "../images/project-2.jpeg";
-import Project3 from "../images/project-3.jpeg";
+import Project1 from "../images/Weather-Dashboard.png";
+import Project2 from "../images/Text-Editor.png";
+import Project3 from "../images/Note-Taker.png";
 
 
 export default function project() {
-    return (<section className="sub-section-extra" id="projects">
-    <h2>My Projects</h2>
-    <div className="project-container">
-    <div id="project-card-1" className="project-card">
-        <img className="project-image" src={Project1} alt="Project One Image"/>
-                <h3>Project One</h3>
-                <p className="subtext">Here you can find my first project that was completed a few weeks after I started my bootcamp</p>
-                <hr/>
-                <p className="subtext"><a className="project-link" >View here</a></p>
-    </div>
-    <div id="project-card-2" className="project-card">
-        <img className="project-image" src={Project2} alt="Project Two Image"/>
-                <h3>Project Two</h3>
-                <p className="subtext">Here you can find my second project that was completed a few months after I started my bootcamp.</p>
-                <hr/>
-                <p className="subtext"><a className="project-link">View here</a></p>
-    </div>
-    <div id="project-card-3" className="project-card">
-        <img className="project-image" src={Project3} alt="Project Three Image"/>
-                <h3>Project Three</h3>
-                <p className="subtext">Here you can find my third project that was completed towards the end of my bootcamp.</p>
-                <hr/>
-                <p className="subtext"><a className="project-link">View here</a></p>
-    </div>
-    </div>
-</section>
+return ( <div className="container">
+<div className="card">
+<img src={Project1} alt="Weather Dashboard"></img>
+<h2>
+  <strong>Weather Dashboard</strong>
+</h2>
+<div className="buttons">
+  <button className="code">
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href="https://github.com/Shuaib-web/Weather-app"
+    >
+      Code
+    </a>
+  </button>
+  <button className="site">
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href="https://shuaib-web.github.io/Weather-app/"
+    >
+      Site
+    </a>
+  </button>
+</div>
+</div>
+<div className="card">
+<img src={Project2} alt="Text Editor"></img>
+<h2>
+  <strong>Text Editor</strong>
+</h2>
+<div className="buttons">
+  <button className="code">
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href="https://github.com/Shuaib-web/Text-Editor"
+    >
+      Code
+    </a>
+  </button>
+  <button className="site">
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href="https://shuib-text-editor.herokuapp.com/"
+    >
+      Site
+    </a>
+  </button>
+</div>
+</div>
+<div className="card">
+<img src={Project3} alt="Note Taker"></img>
+<h2>
+  <strong>Note Taker</strong>
+</h2>
+<div className="buttons">
+  <button className="code">
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href="https://github.com/Shuaib-web/Note-Taker"
+    >
+      Code
+    </a>
+  </button>
+  <button className="site">
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href="https://shuib-note-taker.herokuapp.com/"
+    >
+      Site
+    </a>
+  </button>
+</div>
+</div>
+</div>
     );
 }

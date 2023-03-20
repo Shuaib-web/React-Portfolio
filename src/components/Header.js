@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className="container header">
       <div className="profilePic">
-        <img alt="picture of jacob nordan" src={profile}></img>
+        <img alt="picture of Shuib Mohamed" src={profile}></img>
       </div>
       <div className="intro">
         <h1>

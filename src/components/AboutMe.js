@@ -1,10 +1,99 @@
-export default function AboutMe() {
+function About() {
   return (
-    <section class="sub-section" id="about-me">
-    <div class="information">
-        <h2>About me</h2>
-        <p>Greetings. I go by the name Shuib Mohamed and i'm learning to become a full stack developer. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit voluptatum voluptas nam nostrum itaque labore in eligendi asperiores et ad quasi qui cum, quam quod officiis. Non, sapiente. Commodi, dolorem.</p>
+    <div className="container aboutSkills">
+      <div className="container about">
+        <h1>About Me</h1>
+        <div className="aboutMe">
+          <p>
+            My name is Shuib Mohamed , I'm from Birmingham, and I'm a Full
+            Stack Web Developer with a focus on front-end technologies, I
+            completed the University of Birmingham Full
+            Stack Coding Bootcamp, and have had the opportunity to develope
+            applications ranging from E-commerce platforms to social media
+            platforms to information management tools such as employee tracking
+            systems and secure password generators.
+          </p>
+        </div>
+      </div>
+      <div className="container skills">
+        <h1>My Skills</h1>
+        <div className="listFlex">
+          <ul className="list">
+            <li>
+              <img
+                alt="html svg"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+              />
+              <img
+                alt="css svg"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+              />
+              <img
+                alt="javascript svg"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+              />
+              <img
+                alt="bootstrap svg"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+              />
+              <img
+                alt="materialui svg"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
+              />
+            </li>
+          </ul>
+          <ul className="list">
+            <li>
+              <img
+                alt="mongodb svg"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
+              />
+              <img
+                alt="express svg"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
+              />
+              <img
+                alt="react svg"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+              />
+              <img
+                alt="node svg"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+              />
+              <img
+                alt="mysql svg"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+              />
+            </li>
+          </ul>
+          <ul className="list">
+            <li>
+              <img
+                alt="redux svg"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
+              />
+              <img
+                alt="jquery svg"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg"
+              />
+              <img
+                alt="heroku svg"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg"
+              />
+              <img
+                alt="git svg"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
+              />
+              <img
+                alt="npm svg"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-</section>
   );
 }
+
+export default About;

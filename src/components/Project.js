@@ -7,7 +7,7 @@ import Project3 from "../images/project-3.jpeg";
 
 export default function project() {
     return (<section className="sub-section-extra" id="projects">
-    <h2>Projects</h2>
+    <h2>My Projects</h2>
     <div className="project-container">
     <div id="project-card-1" className="project-card">
         <img className="project-image" src={Project1} alt="Project One Image"/>

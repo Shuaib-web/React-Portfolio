@@ -5,6 +5,7 @@ export default class Footer extends Component {
     return (
       <footer>
       <div className="row">
+      <p>© 2023 Shuib Mohamed | All rights reserved.</p>
         <div className="twelve columns">
           <ul className="social-links">
             {
@@ -15,6 +16,7 @@ export default class Footer extends Component {
                     <i className={item.className} />
                     </a>
                   </li>
+                  
                 )
               })
             }

@@ -1,26 +1,7 @@
-/*
-=====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
 
-   TOC:
-   a. General Styles
-   b. Header Styles
-   c. About Section
-   d. Resume Section
-   e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
-   i. Footer
 
-===================================================================== */
-
-/* ------------------------------------------------------------------ */
 /* a. General Styles
-/* ------------------------------------------------------------------ */
+
 
 body { background: #0f0f0f; }
 
@@ -33,7 +14,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../css/image/background.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -350,10 +331,10 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.reactJs {
+  	width: 90%;
+  	-moz-animation: Reactjs 2s ease;
+  	-webkit-animation: Reactjs 2s ease;
 }
 
 @-moz-keyframes photoshop {
@@ -376,9 +357,9 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes Reactjs {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 90%;  }
 }
 
 @-webkit-keyframes photoshop {
@@ -401,9 +382,9 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+@-webkit-keyframes Reactjs {
+  0%   { width: 90px;  }
+  100% { width: 90%;  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -633,71 +614,6 @@ call-to-action .button {
 	font-family: 'opensans-semibold', sans-serif; 
 	color: #D8D8D8;
 }
-
-/* ------------------------------------------------------------------
-/* g. Testimonials
-/* ------------------------------------------------------------------ */
-
-#testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
-   background-attachment: fixed;
-
-   position: relative;
-   min-height: 200px;
-   width: 100%;
-   overflow: hidden;
-}
-#testimonials .text-container {
-   padding-top: 96px;
-   padding-bottom: 66px;
-}
-#testimonials h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;   
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   color: #fff;
-}
-#testimonials h1 span { display: none; }
-#testimonials .header-col { padding-top: 9px; }
-#testimonials .header-col h1:before {
-   font-family: 'FontAwesome';
-   content: "\f10d";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #fff;
-}
-
-/*	Blockquotes */
-#testimonials blockquote {
-   margin: 0 0px 30px 0px;
-   padding-left: 0;
-   position: relative;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-}
-#testimonials blockquote:before { content: none; }
-#testimonials blockquote p {
-   font-family: 'librebaskerville-italic', serif;
-   padding: 0;
-   font-size: 24px;
-   line-height: 48px;
-   color: #fff
-}
-#testimonials blockquote cite {
-   display: block;
-   font-size: 12px;
-   font-style: normal;
-   line-height: 18px;
-   color: #fff;
-}
-#testimonials blockquote cite:before { content: "\2014 \0020"; }
-#testimonials blockquote cite a,
-#testimonials blockquote cite a:visited { color: #8B9798; border: none }
-
 /* Flex Slider
 /* ------------------------------------------------------------------ */
 
@@ -719,9 +635,9 @@ call-to-action .button {
 .flexslider .slides { zoom: 1; }
 .flexslider .slides > li { position: relative; }
 
-/* Hide the slides before the JS is loaded. Avoids image jumping */
+
 .flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
-/* Suggested container for slide animation setups. Can replace this with your own */
+
 .flex-container { zoom: 1; position: relative; }
 
 /* Clearfix for .slides */
@@ -734,9 +650,7 @@ call-to-action .button {
    clear: both;
 }
 
-/* No JavaScript Fallback */
-/* If you are not using another script, such as Modernizr, make sure you
- * include js that eliminates this class on page load */
+
 .no-js .slides > li:first-child { display: block; }
 
 /* Slider Styles */

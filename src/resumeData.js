@@ -1,14 +1,13 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
+    "imagebaseurl":"https://github.com/Shuaib-web",
     "name": "Shuib Mohamed",
     "role": "Frontend Developer",
     "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": " Currently I reside in Birmingham, and I'm a Full Stack Web Developer with a focus on front-end technologies, I completed the University of Birmingham  Full Stack Coding Bootcamp, and have had the opportunity to develope applications ranging from E-commerce platforms to social media platforms to information management tools such as employee tracking systems and secure password generators.",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/shuib-mohamed-97753a239/",
           "className":"fa fa-linkedin"
         },
         {
@@ -18,44 +17,30 @@ let resumeData = {
         },
         {
           "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
+          "url":"",
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "aboutme":"I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
     "address":"Birmingham",
-    "website":"",
+    "website":"Shuaib_97@hotmail.co.uk",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"University Of Birmingham",
+        "specialization":"Full Stack Web Developer",
+        "MonthOfPassing":"March",
+        "YearOfPassing":"2023",
+        "Achievements":"Full Stack Web Development"
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"HMRC",
+        "specialization":"Case Worker",
+        "MonthOfLeaving":"May",
+        "YearOfLeaving":"2022",
+        "Achievements":"Consultant"
       },
-      {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      }
     ],
     "skillsDescription":"Your skills here",
     "skills":[
@@ -78,17 +63,17 @@ let resumeData = {
       {
         "name":"project2",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "imgurl":"images/Note-Taker.png"
       },
       {
         "name":"project3",
         "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "imgurl":"images/Weather-Dashboard.png"
       },
       {
         "name":"project4",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"images/Teamprofile.png"
       }
     ],
     

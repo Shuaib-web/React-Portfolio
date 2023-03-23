@@ -733,7 +733,7 @@ call-to-action .button {
 
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
+   color: #e7ebeb;
    margin-bottom: 6px;
 }
 #contact p.lead {
@@ -748,7 +748,7 @@ call-to-action .button {
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
-   color: #EBEEEE;
+   color: #e9e3e3;
 	display: inline-block;
 	float: left;
    width: 26%;
@@ -757,7 +757,7 @@ call-to-action .button {
 #contact textarea,
 #contact select {
    padding: 18px 20px;
-	color: #eee;
+	color: #ede6e6;
 	background: #373233;
 	margin-bottom: 42px;
 	border: 0;
@@ -775,8 +775,8 @@ call-to-action .button {
 #contact button.submit {
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color:#fff;
-   background: #0D0D0D;
+	color:#080707;
+   background: #f2efef;
 	border: none;
    cursor: pointer;
    height: auto;
@@ -848,31 +848,9 @@ footer {
 }
 
 footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a:hover, footer a:focus { color: #efeded; }
 
-/* copyright */
-footer .copyright {
-    margin: 0;
-    padding: 0;
- }
-footer .copyright li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    line-height: 24px;
-}
-.ie footer .copyright li {
-   display: inline;
-}
-footer .copyright li:before {
-    content: "\2022";
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #095153;
-}
-footer .copyright  li:first-child:before {
-    display: none;
-}
+
 
 /* social links */
 footer .social-links {
